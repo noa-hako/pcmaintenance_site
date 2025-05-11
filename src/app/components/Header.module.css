@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_list {
+  display: flex;
+  list-style: none;
+}
+
+.nav_item {
+  margin: 0 5px;
+}
