@@ -15,10 +15,11 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.wrapper}>
-        <h1 className={styles.h1}>KEIPC</h1>
+        <h1 className={styles.h1}>PC.K</h1>
         <div className={styles.col}>
-          <p>宮城県多賀城市1-2-3</p>
           <p>☎︎ 022-123-4567</p>
+          <p>営業時間 10:00〜19:00</p>
+          <p>定休日 水曜日</p>
         </div>
       </div>
       <nav className={styles.nav}>
