@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Main.module.css";
 import Sec01 from "./Sec01";
+import Sec02 from "./Sec02";
 
 export default function Main() {
   return (
@@ -16,6 +17,7 @@ export default function Main() {
         </p>
       </div>
       <Sec01 />
+      <Sec02 />
     </>
   );
 }

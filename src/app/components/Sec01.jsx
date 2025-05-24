@@ -1,10 +1,11 @@
 import React from "react";
-import styles from "./Sec01.module.css";
+import styles from "./Section.module.css";
+import SecTitle from "./SecTitle";
 
 export default function Sec01() {
   return (
     <div className={styles.wrapper}>
-      <h2 className={styles.h2}>こんなお悩みも解決できます</h2>
+      <SecTitle title="こんなお悩みも解決できます" />
       <div>
         <ul className={styles.list}>
           <li className={styles.listItem}>
