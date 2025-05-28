@@ -5,7 +5,7 @@
 .para {
   font-size: 1.2rem;
   color: #666;
-  text-align: center;
+  text-align: left;
 }
 
 .list {
@@ -43,6 +43,7 @@
   border: 1px solid #e6e6e6;
   padding: 20px;
   list-style: none;
+  margin-bottom: 20px;
 }
 
 .qalist li {
@@ -55,4 +56,18 @@
 
 .qalist p {
   padding: 10px;
+}
+
+.flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.flowItem {
+  width: 24%;
+  height: 300px;
+  margin-bottom: 20px;
+  padding: 23px;
+  background-color: #d1d1d1;
 }

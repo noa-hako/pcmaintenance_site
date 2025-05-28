@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Section.module.css";
 import SecTitle from "./SecTitle";
 
-export default function Sec02() {
+export default function Section02() {
   return (
     <div className={styles.wrapper}>
       <SecTitle title="よくある質問" />
