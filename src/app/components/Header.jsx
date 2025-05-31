@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Header.module.css";
+import Image from "next/image";
 
 const NAVI = [
   "初めての方",
@@ -15,7 +16,9 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.wrapper}>
-        <h1 className={styles.h1}>PC.K</h1>
+        <h1 className={styles.h1}>
+          <Image src="/repico.png" alt="ロゴ" width={230} height={80} />
+        </h1>
         <div className={styles.col}>
           <p>☎︎ 022-123-4567</p>
           <p>営業時間 10:00〜19:00</p>
