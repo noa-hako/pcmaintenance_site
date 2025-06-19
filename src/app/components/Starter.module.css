@@ -46,6 +46,10 @@
 }
 
 .col_item {
-  background-color: #e8c8fe;
+  background-color: #bceefc;
   border-radius: 5px;
+}
+
+.pt50 {
+  padding-top: 50px;
 }

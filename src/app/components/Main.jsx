@@ -31,14 +31,8 @@ export default function Main() {
             <br />
             まずはお気軽にお問い合わせください。
           </p>
-          {/* <ul>
-          <li>10km以内 2,500円</li>
-          <li>10～15km 3,500円</li>
-          <li>15km超え 4,500円</li>
-        </ul> */}
         </div>
       </div>
-      <Starter />
       <Section01 />
       <Section02 />
       <Section03 />
