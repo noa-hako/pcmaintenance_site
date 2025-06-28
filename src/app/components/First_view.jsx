@@ -20,18 +20,14 @@ export default function First_view() {
       effect="fade"
       speed={1000}
       // navigation
-      // pagination={{ clickable: true }}
+      pagination={{ clickable: true }}
       autoplay={{ delay: 5000 }}
       loop
       className={styles.kvSwiper}
     >
       {images.map((src, index) => (
         <SwiperSlide key={index}>
-          <img
-            src={src}
-            alt={`KV ${index + 1}`}
-            className="w-full h-auto object-cover"
-          />
+          <img src={src} alt={`KV ${index + 1}`} />
         </SwiperSlide>
       ))}
     </Swiper>
