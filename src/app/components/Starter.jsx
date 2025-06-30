@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Starter() {
   return (
-    <div className={styles.pt50}>
+    <div className={styles.wrapper}>
       <SecTitle title="初めての方へ" />
       <h2 className={styles.h2}>修理・相談の方法は３通り</h2>
       <ul className={styles.list}>
@@ -37,7 +37,7 @@ export default function Starter() {
           <p>出張引き取り</p>
         </li>
       </ul>
-      <div className={styles.wrapper}>
+      <div className={styles.cols}>
         <h3>持ち込み修理</h3>
         <div>
           <div className={styles.col}>
@@ -61,7 +61,7 @@ export default function Starter() {
           </div>
         </div>
       </div>
-      <div className={styles.wrapper}>
+      <div className={styles.cols}>
         <h3>宅配修理</h3>
         <div>
           <div className={styles.col}>
@@ -83,7 +83,7 @@ export default function Starter() {
           </div>
         </div>
       </div>
-      <div className={styles.wrapper}>
+      <div className={styles.cols}>
         <h3>出張引き取り</h3>
         <div>
           <div className={styles.col}>

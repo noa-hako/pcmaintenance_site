@@ -1,3 +1,9 @@
+.wrapper {
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
 .h2 {
   margin-top: 50px;
   font-size: 36px;
@@ -19,7 +25,7 @@
   }
 }
 
-.wrapper {
+.cols {
   margin-bottom: 20px;
   padding: 0 100px;
 
@@ -28,7 +34,7 @@
   }
 }
 
-.wrapper:last-child {
+.cols:last-child {
   margin-bottom: 0;
 }
 
@@ -48,8 +54,4 @@
 .col_item {
   background-color: #bceefc;
   border-radius: 5px;
-}
-
-.pt50 {
-  padding-top: 50px;
 }

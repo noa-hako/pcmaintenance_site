@@ -6,53 +6,43 @@ import {
   faTwitter,
   faYoutube,
   faInstagram,
+  faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
     <div className={styles.footer}>
-      <Link href="https://x.com/" target="_blank">
-        Twitter
-      </Link>
-      <Link href="https://www.youtube.com/" target="_blank">
-        YouTube
-      </Link>
-      <Link href="https://www.instagram.com/" target="_blank">
-        Instagram
-      </Link>
-      <div className="flex gap-4">
-        <a
-          href="https://twitter.com/yourprofile"
+      <div className={styles.footerSocial}>
+        <Link
+          href="https://twitter.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faTwitter} size="2x" />
-        </a>
-        <a
-          href="https://youtube.com/yourchannel"
+        </Link>
+        <Link
+          href="https://youtube.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faYoutube} size="2x" />
-        </a>
-        <a
-          href="https://instagram.com/yourprofile"
+        </Link>
+        <Link
+          href="https://instagram.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faInstagram} size="2x" />
-        </a>
+        </Link>
+        <Link
+          href="https://facebook.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faFacebook} size="2x" />
+        </Link>
       </div>
       <ul className={styles.footerList}>
-        <li>
-          <Link href="/about">会社概要</Link>
-        </li>
-        <li>
-          <Link href="/contact">お問い合わせ</Link>
-        </li>
-        <li>
-          <Link href="/faq">よくある質問</Link>
-        </li>
         <li>
           <Link href="/terms">利用規約</Link>
         </li>
