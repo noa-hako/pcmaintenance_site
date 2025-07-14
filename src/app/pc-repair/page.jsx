@@ -1,11 +1,12 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Section04 from "../components/Section04";
+import Section01 from "../components/Section01";
 
-export default function RepairCases() {
+export default function PcRepair() {
   return (
     <div>
       <Header />
+      <Section01 />
       <Footer />
     </div>
   );

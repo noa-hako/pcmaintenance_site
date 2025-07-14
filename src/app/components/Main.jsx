@@ -1,11 +1,7 @@
 import React from "react";
 import styles from "./Main.module.css";
-import Section01 from "./Section01";
 import Section02 from "./Section02";
-import Section03 from "./Section03";
-import Section04 from "./Section04";
 import Sec_map from "./Sec_map";
-import Starter from "./Starter";
 
 export default function Main() {
   return (
@@ -33,10 +29,7 @@ export default function Main() {
           </p>
         </div>
       </div>
-      <Section01 />
       <Section02 />
-      <Section03 />
-      <Section04 />
       <Sec_map />
     </>
   );

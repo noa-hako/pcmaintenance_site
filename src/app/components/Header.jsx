@@ -4,12 +4,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 const navItems = [
+  { label: "ホーム", href: "/" },
   { label: "初めての方", href: "/starter" },
   { label: "パソコン修理", href: "/pc-repair" },
-  { label: "Mac修理", href: "/mac-repair" },
+  { label: "納品までの流れ", href: "/delivery" },
   { label: "データ復旧", href: "/data-recovery" },
-  { label: "料金", href: "/pricing" },
-  { label: "サービス", href: "/services" },
+  { label: "料金案内", href: "/pricing" },
   { label: "修理事例", href: "/repair-cases" },
 ];
 

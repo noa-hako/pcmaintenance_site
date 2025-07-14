@@ -5,7 +5,6 @@ import styles from "./Section.module.css";
 export default function Section03() {
   return (
     <div className={styles.wrapper}>
-      <SecTitle title="納品までの流れ" />
       <div>
         <h2>持ち込み修理</h2>
         <div className={styles.flow}>
