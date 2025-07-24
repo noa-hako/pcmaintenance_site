@@ -95,13 +95,15 @@
   }
 }
 
+.priceSection {
+  margin: 0 auto 50px;
+}
 .priceTable {
   width: 90%;
-  margin: 0 auto;
   border-collapse: collapse;
   border-spacing: 0;
   font-size: 20px;
-  margin: 40px auto;
+  margin: 0 auto;
 
   td {
     padding: 2% 5px;

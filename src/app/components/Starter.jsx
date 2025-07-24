@@ -16,7 +16,10 @@ export default function Starter() {
             width={220}
             height={220}
           />
-          <p>持ち込み修理</p>
+          <h3>店舗持ち込み</h3>
+          <p>
+            予約なしでもお受けいたします。 お急ぎの方はお店にお持ち込み下さい。
+          </p>
         </li>
         <li>
           <Image
@@ -25,7 +28,12 @@ export default function Starter() {
             width={220}
             height={220}
           />
-          <p>宅配修理</p>
+          <h3>宅配修理</h3>
+          <p>
+            事前にお電話でご相談の上、宅配便でお送りください。
+            <br />
+            送料はお客様負担となります。
+          </p>
         </li>
         <li>
           <Image
@@ -34,7 +42,12 @@ export default function Starter() {
             width={220}
             height={220}
           />
-          <p>出張引き取り</p>
+          <h3>出張引き取り</h3>
+          <p>
+            事前にお電話でご相談の上、出張引き取りを行います。
+            <br />
+            料金は地域によって異なりますので、お問い合わせください。
+          </p>
         </li>
       </ul>
     </div>

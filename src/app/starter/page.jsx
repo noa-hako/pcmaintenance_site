@@ -8,7 +8,6 @@ export default function StartComponents() {
     <div>
       <Header />
       <Starter />
-      <Section03 />
       <Footer />
     </div>
   );

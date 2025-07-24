@@ -50,10 +50,10 @@ export default function Footer() {
           <Link href="/privacy">プライバシーポリシー</Link>
         </li>
         <li>
-          <Link href="/legal">特定商取引法に基づく表記</Link>
+          <Link href="/legalnotice">特定商取引法に基づく表記</Link>
         </li>
         <li>
-          <Link href="/sitemap">サイトマップ</Link>
+          <Link href="/disclaimer">免責事項</Link>
         </li>
       </ul>
       <br />

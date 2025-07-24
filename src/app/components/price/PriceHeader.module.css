@@ -1,0 +1,9 @@
+.header {
+  font-size: 24px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #26558a;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}

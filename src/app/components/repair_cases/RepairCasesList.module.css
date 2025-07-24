@@ -1,0 +1,46 @@
+.article {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin-bottom: 30px;
+
+  border: 2px solid #e6e6e6;
+  gap: 30px;
+}
+
+.list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.date {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.bgc_gray {
+  background-color: #aaaaaa;
+  width: 360px;
+  height: 240px;
+}

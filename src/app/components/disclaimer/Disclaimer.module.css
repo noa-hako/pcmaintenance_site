@@ -1,0 +1,29 @@
+.wrapper {
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 50px;
+}
+
+.section {
+  margin-bottom: 30px;
+
+  h2 {
+    background-color: #2f94c4;
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 5px 1%;
+    border-radius: 5px;
+  }
+
+  ol {
+    padding-left: 2rem;
+    margin-top: 10px;
+  }
+}
