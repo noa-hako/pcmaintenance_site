@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "./Main.module.css";
+import Section01 from "./Section01";
 import Section02 from "./Section02";
 import Sec_map from "./Sec_map";
+import Starter from "./Starter";
 
 export default function Main() {
   return (
@@ -18,7 +20,7 @@ export default function Main() {
           </p>
         </div>
         <div className={styles.wrapper}>
-          <h2 className={styles.h2}>出張引き取りいたします！！</h2>
+          <h2 className={styles.h2}>出張引き取りいたします！</h2>
           <p className={styles.cap}>（※別途、出張費用がかかります）</p>
           <p className={styles.para}>
             お客様のご自宅やオフィスまでお伺いし、パソコンの引き取りをいたします。
@@ -29,6 +31,8 @@ export default function Main() {
           </p>
         </div>
       </div>
+      <Starter />
+      <Section01 />
       <Section02 />
       <Sec_map />
     </>
