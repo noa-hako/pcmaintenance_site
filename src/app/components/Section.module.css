@@ -118,3 +118,33 @@
 .price_en {
   width: 15%;
 }
+
+.cases_picture {
+  width: 700px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.cases_text {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 50px;
+}
+
+.cases_info {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.cases_syoujo {
+  color: white;
+  margin-right: 10px;
+  font-weight: bold;
+  display: block;
+  background-color: #6495ed;
+  padding: 5px 15px;
+  border-radius: 10px;
+}

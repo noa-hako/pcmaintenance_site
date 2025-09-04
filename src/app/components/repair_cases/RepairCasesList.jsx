@@ -18,15 +18,15 @@ export default function repair_cases_list() {
         <div className={styles.list}>
           <div>
             <h2 className={styles.title}>
-              mouseパソコンの液晶モニターを交換修理
+              acerパソコンの液晶モニターを交換修理
             </h2>
             <p className={styles.text}>
               ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
               ここにテキストが入ります。ここにテキストが入ります。
             </p>
           </div>
-          <p className={styles.date}>2025.7.25</p>
-          <Link href="/cases001">
+          <p className={styles.date}>2025.9.4</p>
+          <Link href="/repair-cases/case001">
             <button className={styles.button}>続きを読む</button>
           </Link>
         </div>
