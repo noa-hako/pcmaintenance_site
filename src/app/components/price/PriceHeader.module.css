@@ -7,3 +7,10 @@
   padding: 10px 20px;
   border-radius: 5px;
 }
+
+/* メディアクエリ */
+@media (max-width: 768px) {
+  .header {
+    font-size: 20px;
+  }
+}

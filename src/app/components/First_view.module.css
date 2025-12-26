@@ -8,3 +8,11 @@
   height: 100%;
   object-fit: cover;
 }
+
+/* メディアクエリ */
+@media (max-width: 768px) {
+  .kvSwiper {
+    width: 100%;
+    height: 300px;
+  }
+}

@@ -6,3 +6,10 @@
   padding: 20px 18px 18px 18px;
   line-height: 1em;
 }
+
+/* メディアクエリ */
+@media (max-width: 768px) {
+  .h2 {
+    font-size: 1.5rem;
+  }
+}

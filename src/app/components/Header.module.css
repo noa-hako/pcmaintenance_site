@@ -4,7 +4,7 @@
 }
 
 .wrapper {
-  width: 1100px;
+  max-width: 1100px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -13,7 +13,6 @@
 
 .col {
   display: flex;
-  flex-direction: wrap;
   justify-content: center;
   align-items: center;
   gap: 20px;
@@ -33,7 +32,6 @@
   display: flex;
   align-items: center;
   height: 130px;
-  font-size: 40px;
 }
 
 .nav {
@@ -69,4 +67,16 @@
   padding: 2% 0;
   color: #ffffff;
   text-decoration: none;
+}
+
+/* メディアクエリ */
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .col {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
 }

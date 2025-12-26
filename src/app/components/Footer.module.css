@@ -21,3 +21,11 @@
   justify-content: center;
   margin-bottom: 30px;
 }
+
+/* メディアクエリ */
+@media (max-width: 768px) {
+  .footerList {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

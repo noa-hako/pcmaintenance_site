@@ -7,7 +7,7 @@ export default function Section02() {
     <div className={styles.wrapper}>
       <SecTitle title="よくある質問" />
       <div>
-        <ul className={styles.qalist}>
+        <ul className={styles.qa_list}>
           <li>
             <h2>パソコン修理には何日ぐらいかかりますか？</h2>
             <p>

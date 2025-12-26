@@ -62,3 +62,23 @@
   background-color: #bceefc;
   border-radius: 5px;
 }
+
+/* メディアクエリ */
+@media (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+  }
+  .h2 {
+    font-size: 28px;
+    margin: 0 10px;
+  }
+  .list {
+    flex-direction: column;
+    padding: 0 10px;
+    margin: 50px 0 30px;
+    gap: 30px;
+  }
+  .list p {
+    padding: 20px;
+  }
+}
