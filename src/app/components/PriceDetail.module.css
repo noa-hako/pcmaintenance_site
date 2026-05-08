@@ -1,0 +1,137 @@
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+}
+
+.titleContainer {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.mainTitle {
+  font-size: 2.2rem;
+  color: #211ab1;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.subTitle {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.sectionsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.section {
+  background-color: white;
+}
+
+.sectionHeader {
+  background: linear-gradient(to right, #17a2b8, #0b7dda);
+  color: white;
+  padding: 15px 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 8px 8px 0 0;
+}
+
+.sectionContent {
+  border: 1px solid #e6e6e6;
+  border-top: none;
+  padding: 0;
+  background-color: white;
+}
+
+.priceRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.priceRow:last-child {
+  border-bottom: none;
+}
+
+.priceLeft {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.serviceName {
+  font-size: 1rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.workTime {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.priceRight {
+  white-space: nowrap;
+  text-align: right;
+}
+
+.price {
+  font-size: 1.1rem;
+  color: #0b7dda;
+  font-weight: bold;
+}
+
+.Purple_Purse {
+  color: #0b7dda;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 1024px) {
+  .sectionsContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .mainTitle {
+    font-size: 1.8rem;
+  }
+
+  .subTitle {
+    font-size: 1rem;
+  }
+
+  .sectionHeader {
+    font-size: 1.1rem;
+  }
+
+  .priceRow {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .priceLeft {
+    padding-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .priceRight {
+    text-align: left;
+  }
+}

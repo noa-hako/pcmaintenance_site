@@ -7,6 +7,7 @@ const navItems = [
   { label: "ホーム", href: "/" },
   { label: "料金案内", href: "/pricing" },
   { label: "修理事例", href: "/repair-cases" },
+  { label: "お問い合わせ", href: "/contact" },
 ];
 
 export default function Header() {

@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Main.module.css";
 import Section01 from "./Section01";
 import Section02 from "./Section02";
+import PriceDetail from "./PriceDetail";
 import Sec_map from "./Sec_map";
 import Starter from "./Starter";
 
@@ -33,6 +34,7 @@ export default function Main() {
       </div>
       <Starter />
       <Section01 />
+      <PriceDetail />
       <Section02 />
       <Sec_map />
     </>

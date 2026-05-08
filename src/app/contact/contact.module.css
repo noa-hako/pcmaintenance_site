@@ -1,0 +1,181 @@
+.contactFormSection {
+  padding: 50px 15px;
+  background-color: #f4f7f9;
+  font-family:
+    "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans",
+    Meiryo, sans-serif;
+}
+
+.formContainer {
+  max-width: 880px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.formTitle {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.backLinkWrapper {
+  margin-bottom: 24px;
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  color: #3498db;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.backLink:hover {
+  color: #216fa5;
+}
+
+.formDescription {
+  text-align: center;
+  color: #7f8c8d;
+  margin-bottom: 40px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.formSection {
+  border: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.legend {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #3498db;
+  border-bottom: 2px solid #3498db;
+  width: 100%;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+/* ラベル用のクラス */
+.labelText {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #34495e;
+}
+
+.formRow {
+  display: flex;
+  gap: 20px;
+}
+
+.formRowItem {
+  flex: 1;
+}
+
+/* inputタグ用のクラス */
+.inputField {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccd1d9;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background: #fff;
+}
+
+/* textarea用のクラス */
+.textArea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccd1d9;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background: #fff;
+  min-height: 120px;
+  resize: vertical;
+}
+
+.radioGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding-top: 5px;
+}
+
+/* ラジオボタンのラベル用 */
+.radioLabel {
+  font-weight: normal !important;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #34495e;
+}
+
+.requiredBadge,
+.optionalBadge {
+  font-size: 11px;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.requiredBadge {
+  background: #e74c3c;
+  color: #fff;
+}
+
+.optionalBadge {
+  background: #95a5a6;
+  color: #fff;
+}
+
+.formSubmit {
+  text-align: center;
+}
+
+.submitBtn {
+  background-color: #3498db;
+  color: white;
+  padding: 18px 60px;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submitBtn:hover {
+  background-color: #2980b9;
+  box-shadow: 0 4px 10px rgba(52, 152, 219, 0.4);
+}
+
+@media (max-width: 600px) {
+  .formRow {
+    flex-direction: column;
+    gap: 0;
+  }
+  .radioGroup {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .formContainer {
+    padding: 20px;
+  }
+}
