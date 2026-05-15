@@ -6,8 +6,7 @@ import Image from "next/image";
 export default function Starter() {
   return (
     <div className={styles.wrapper}>
-      <SecTitle title="初めての方へ" />
-      <h2 className={styles.h2}>修理・相談の方法</h2>
+      <SecTitle title="修理・相談の方法" />
       <ul className={styles.list}>
         <li>
           <Image
